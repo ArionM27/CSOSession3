@@ -15,20 +15,20 @@ int main(int argc, char* argv[]){
   /***********************************************************
    * data type sizes 
    ************************************************************/
-  int max_int = 0x7FFFFFFF;                     /* write the max int in hexadecimal notation */
   int min_int = -0x7FFFFFF;                /* write the min int in hexadecimal representation*/
-  short max_sint = 0x7FFF;                      /* write the maximum short int in hexadecimal representation */
+  int max_int = 0x7FFFFFFF;                     /* write the max int in hexadecimal notation */
   short min_sint = -0x7FFF;                     /* write the minimum short int in hexadecimal representation */
+  short max_sint = 0x7FFF;                      /* write the maximum short int in hexadecimal representation */
   long min_lint = -0x7FFFFFFF;      /* write the minimum long int in hexadecimal representation */
   long max_lint = 0x7FFFFFFF;           /* write the maximum long  int in hexadecimal representation */ 
   unsigned int max_uint = 0xFFFFFFFF;           /* write the usigned max int in hexadecimal notation */
   unsigned short max_usint = 0xFFFF;            /* write the unsigned max short int in hexadecimal notation */
   unsigned long max_ulint = 0xFFFFFFFF; /* write the unsigned max long int in hexadecimal notation */
 
-  printf("max int is %d\n", max_int);
   printf("min int is %d\n", min_int);
-  printf("max short int is %d\n", max_sint);  
+  printf("max int is %d\n", max_int);
   printf("min short int is %d\n", min_sint);
+  printf("max short int is %d\n", max_sint);  
   printf("min long int is %ld\n", min_lint);
   printf("max long int is %ld\n", max_lint);
   printf("max unsigned int is %u\n", max_uint);
